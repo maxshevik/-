@@ -6,7 +6,7 @@ from flask import Flask, request, render_template
 app = Flask(__name__)
 
 # Загружаем модель
-model_path = "/home/devyati/komposit/App/s_model/k_m/"
+model_path = "C:\\Users\\Julia\\Desktop\\App\\s_model\\k_m"
 model = keras.models.load_model(model_path)
 
 # Функция для прогнозирования
